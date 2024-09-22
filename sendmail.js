@@ -21,7 +21,7 @@ const detailtosend = {
     from:`${process.env.USER}`,
     to: email,
     subject :"Certificate Of Completion",
-    html: "<h1>Congrulation on completing the course</h1>",
+    html: "<h1>Congratulation on completing the course</h1>",
     attachments: [
         {
           filename: `${name}_certificate.pdf`,
